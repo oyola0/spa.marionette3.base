@@ -1,0 +1,21 @@
+@import "helpers/color_class.scss";
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;    
+    overflow-x: hidden;
+    text-shadow: none;
+
+    &.loading-spinner{
+        background: url("../../globals/images/spinner.gif") no-repeat center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height:100vh;
+        div{
+            display: none !important;
+        }
+    }
+}

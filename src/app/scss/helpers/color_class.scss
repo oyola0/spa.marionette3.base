@@ -1,0 +1,16 @@
+@import "../../../globals/scss/colors.scss";
+
+@mixin generate-color-class($nameClass, $color) {
+    .bg-#{$nameClass} {
+        background-color: $color;
+    }
+    .clr-#{$nameClass} {
+        color: $color;
+    }
+}
+
+@include generate-color-class("gray-primary", $gray-dark);
+@include generate-color-class("white", $white);
+@include generate-color-class("black", $black);
+@include generate-color-class("gray-light", $gray-light);
+

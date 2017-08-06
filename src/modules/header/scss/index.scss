@@ -1,0 +1,17 @@
+@import "../../../globals/scss/media-queries.scss";
+
+.header {
+    .navbar-brand {
+        cursor: pointer;
+    }
+    .navbar-right{
+        margin-right: 15px;
+    }
+
+    .navbar-header{
+        @media #{$media-tablet-portrait} {        
+            float: none;
+        }
+    }
+    
+}

@@ -1,0 +1,8 @@
+dist/
+coverage/
+.pre-build/
+.test/
+**/node_modules/
+
+src/libs/
+src/**/*.css

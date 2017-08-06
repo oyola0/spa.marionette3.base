@@ -1,0 +1,12 @@
+$screen-xs: 768px;
+$screen-sm: 992px;
+$screen-md: 1200px;
+$screen-xs-max: ($screen-xs - 1);
+$screen-sm-max: ($screen-sm - 1);
+$screen-md-max: ($screen-md - 1);
+
+$dektop-width: 1050px;
+$height-without-header: calc(100vh - 90px);
+
+//FONT
+$arial: Arial, Helvetica, sans-serif;

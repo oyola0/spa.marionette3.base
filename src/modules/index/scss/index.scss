@@ -1,0 +1,15 @@
+@import "../../../globals/scss/colors.scss";
+
+.m-index {    
+    a{          
+        border-radius: 10px;
+        border: 3px solid rgba($gray-dark, 0.2);
+        padding: 0 10px;            
+        line-height: 50px;
+        font-size: 25px;
+
+        &:hover{
+            border: 3px solid $gray-dark;
+        }
+    }
+}

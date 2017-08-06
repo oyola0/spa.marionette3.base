@@ -1,0 +1,9 @@
+@import "vars.scss";
+
+$media-mobile: "only screen and (max-width : "#{$screen-xs-max}")";
+$media-tablet-portrait-only: "(min-width: "#{$screen-xs}") and (max-width : "#{$screen-sm-max}")";
+$media-tablet-landscape-only: "(min-width: "#{$screen-sm}") and (max-width : "#{$screen-md-max}")";
+$media-tablet-portrait: "only screen and (min-width : "#{$screen-xs}")";
+$media-tablet-landscape: "only screen and (min-width : "#{$screen-sm}")";
+$media-desktop: "only screen and (min-width : "#{$screen-md}")";
+
