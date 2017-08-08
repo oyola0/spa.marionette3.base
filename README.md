@@ -67,13 +67,13 @@ Run karma test
 
 #### Methods
 
-* [moduleListeners](#moduleListeners)
-* [triggerToModule](#triggerToModule)
-* [moduleRequests](#moduleRequests)
-* [requestToModule](#requestToModule)
-* [triggerToApp](#triggerToApp)
-* [requestToApp](#requestToApp)
-* [externalListeners](#externalListeners)
+* [moduleListeners](#user-content-events)
+* [triggerToModule](#user-content-events)
+* [moduleRequests](#user-content-requests)
+* [requestToModule](#user-content-requests)
+* [triggerToApp](#user-content-events-1)
+* [requestToApp](#user-content-requests-1)
+* [externalListeners](#user-content-listen-to-others-module-channel)
 
 ### Module concept
 
@@ -107,7 +107,7 @@ this.instanceView(MyView, options)
 
 ##### Events
 
-{#moduleListeners}Listen the module events (__moduleListeners__):
+Listen the module events (__moduleListeners__):
 
 ```
 moduleListeners: {
@@ -115,7 +115,7 @@ moduleListeners: {
 }
 ```
 
-{#triggerToModule}Trigger event to module (__triggerToModule__):
+Trigger event to module (__triggerToModule__):
 
 ```
 this.triggerToModule('eventName', options);
@@ -123,7 +123,7 @@ this.triggerToModule('eventName', options);
 
 ##### Requests
 
-{#moduleRequests}Declarate requests to module (__moduleRequests__):
+Declarate requests to module (__moduleRequests__):
 
 ```
 moduleRequests: {
@@ -135,7 +135,7 @@ requestCallback: function(opts) {
 }
 ```
 
-{#requestToModule}Request to module (__requestToModule__):
+Request to module (__requestToModule__):
 
 ```
 this.requestToModule('requestName', 'world');   //return 'hello world'
@@ -145,7 +145,7 @@ this.requestToModule('requestName', 'world');   //return 'hello world'
 
 ##### Events
 
-{#triggerToApp}Trigger event to app (__triggerToApp__):
+Trigger event to app (__triggerToApp__):
 
 ```
 this.triggerToApp('navigate', 'moduleFolderName');
@@ -155,7 +155,7 @@ this.triggerToApp('goBack');
 
 ##### Requests
 
-{#requestToApp}Request to app (__requestToApp__):
+Request to app (__requestToApp__):
 
 ```
 this.requestToApp('getDeviceModel');    //return deviceModel
@@ -163,7 +163,7 @@ this.requestToApp('getDeviceModel');    //return deviceModel
 
 ### Listen to others Module Channel
 
-{#externalListeners}Listen the others modules events (__externalListeners__):
+Listen the others modules events (__externalListeners__):
 
 ```
 externalListeners: {
