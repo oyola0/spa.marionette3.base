@@ -6,25 +6,19 @@ The simple page application based marionetteJS 3
 
 #### Installation
 
-Local installation:
+Install ([node 6](https://nodejs.org/es/download/) or higher):
 
 ```
 git clone https://github.com/Oyola1987/spa.marionette3.base.git
 cd spa.marionette3.base
+npm run start
 ```
-
-#### Initializing
-
-To initialize the project
-
-`npm run start`
-
 
 #### Develop
 
 `npm run dev`
 
-Develop and launch watch [__liveReload__](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) server
+Develop and launch watch [liveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei) server
 
 `npm run dev-server`
 
@@ -167,6 +161,16 @@ Listen the others modules events (__externalListeners__):
 
 ```
 externalListeners: {
-    'another-module-name:eventName': 'callback'
+    'other-module-name:eventName': 'callback'
 }
 ```
+
+### Libraries
+
+This code works with the following libraries:
+
+* [jQuery](http://jquery.com)
+* [Underscore](http://underscorejs.org)
+* [Backbone](http://backbonejs.org)
+* [Marionettejs](https://marionettejs.com/docs/v3.3.1/)
+* [Handlebarsjs](http://handlebarsjs.com/)
