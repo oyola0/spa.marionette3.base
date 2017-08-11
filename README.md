@@ -1,7 +1,7 @@
 ﻿
 # SPA Marionette 3 base
 
-The simple page application based marionetteJS 3
+The single page application based marionetteJS 3
 
 
 #### Installation
