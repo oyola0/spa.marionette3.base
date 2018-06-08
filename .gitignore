@@ -1,4 +1,5 @@
 dist/
+.vs/
 coverage/
 .pre-build/
 .test/

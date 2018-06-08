@@ -67,7 +67,7 @@
     "gulp-rename": "1.2.2",
     "gulp-replace": "0.6.1",
     "gulp-requirejs-optimize": "1.2.0",
-    "gulp-sass": "2.3.2",
+    "gulp-sass": "4.0.1",
     "gulp-sequence": "0.4.6",
     "gulp-transform": "2.0.0",
     "gulp-uglify": "3.0.0",
