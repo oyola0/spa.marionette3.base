@@ -34,7 +34,7 @@
     "requirejs": "2.3.4",
     "requirejs-text": "2.0.12",
     "underscore": "1.8.3",
-    "bootstrap": "3.3.7"
+    "bootstrap": "3.4.1"
   },
   "scripts": {
     "start": "npm i && gulp develop-server",
