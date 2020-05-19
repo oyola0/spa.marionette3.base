@@ -9,7 +9,7 @@ The single page application based marionetteJS 3
 Install ([node 6](https://nodejs.org/es/download/) or higher):
 
 ```
-git clone https://github.com/Oyola1987/spa.marionette3.base.git
+git clone https://github.com/Oyola0/spa.marionette3.base.git
 cd spa.marionette3.base
 npm run start
 ```
